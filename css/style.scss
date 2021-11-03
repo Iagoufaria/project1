@@ -1,0 +1,23 @@
+//Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+//Variables
+$baseColor1: #D2872C;
+$baseColor2: #766F68;
+$fontBase: Roboto;
+
+//Import sub-pages
+@import 'header';
+@import 'section';
+
+
+
+//Comands
+* {
+  font-family: $fontBase;
+  margin: 5px 20px;
+}
+
+
+
+

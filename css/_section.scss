@@ -1,0 +1,160 @@
+@media (min-width: 1500px){
+section {
+  display: flex;
+  margin: 5% 10%;
+  
+  
+  
+}
+
+
+.img-fundo {
+  order: 2;
+  max-width: 1000px;
+  min-width: 300px;
+  padding-top: 40px;
+  margin-left: -568px;
+  
+  
+}
+
+
+h1 {
+  font-family: $fontBase;
+  color: $baseColor2;
+  width: 1000px;
+  font-size: 90px;
+  position: relative;
+  
+}
+
+
+
+p {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  font-family: $fontBase;
+  color: $baseColor2;
+  font-size: 36px;
+  width: 600px;
+  position: relative;
+  
+}
+
+input{
+  background-color: $baseColor1;
+  color: white;
+  font-size: 35px;
+  height: 90px;
+  width: 400px;
+  border: none;
+  border-radius: 30px;
+  
+}
+}
+
+@media (max-width: 1500px){
+  section {
+    display: flex;
+    margin: 15% 5%;
+    padding: 0%;
+    max-width: 1000px;
+    
+    
+  }
+  
+  .img-fundo {
+    order: 2;
+    max-width: 600px;
+    padding-top: 30px;
+    margin-left: -365px;
+    
+    
+  }
+  
+  
+  h1 {
+    font-family: $fontBase;
+    color: $baseColor2;
+    width: 700px;
+    font-size: 70px;
+    position: relative;
+    
+  }
+  
+  
+  
+  p {
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-family: $fontBase;
+    color: $baseColor2;
+    font-size: 28px;
+    position: relative;
+    
+  }
+  
+  input{
+    background-color: $baseColor1;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+}
+
+@media (max-width: 1103px) {
+ .logo {
+   font-size: 35px;
+ }
+
+ .container {
+   max-height: 100%;
+   max-width: 100%;
+   margin: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+ }
+
+ 
+ 
+ h1 {
+   width: 320px;
+   font-size: 40px;
+   text-align: center;
+ }
+
+ p {
+   font-size: 20px;
+   text-align: center;  
+   width: 320px;
+   
+ }
+
+ .img-fundo {
+   order: 0;
+   width: 320px;
+   margin: 0px;
+   align-items: center;
+ }
+
+ input {
+   width: 100%;
+   height: 80px;
+   align-items: center;
+   margin-left: 0px;
+   margin-top: -50px;
+   font-size: 30px;
+   
+   
+ }
+
+ 
+ 
+}
