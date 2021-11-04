@@ -114,7 +114,6 @@ input{
 
  .container {
    max-height: 100%;
-   max-width: 100%;
    margin: none;
    display: flex;
    flex-direction: column;
@@ -122,10 +121,26 @@ input{
 
  }
 
+ #titleSection {
+   margin: 0%;
+ }
+
+ p {
+   margin: 0%;
+ }
+
+ .content {
+   align-content: center;
+   margin: 0%;
+   padding: none;
+   width: 300px;
+   margin: none;
+ }
+ 
  
  
  h1 {
-   width: 320px;
+   width: 300px;
    font-size: 40px;
    text-align: center;
  }
@@ -133,24 +148,24 @@ input{
  p {
    font-size: 20px;
    text-align: center;  
-   width: 320px;
+   width: 300px;
    
  }
 
  .img-fundo {
    order: 0;
-   width: 320px;
+   width: 300px;
    margin: 0px;
    align-items: center;
  }
 
  input {
-   width: 100%;
+   width: 300px;
    height: 80px;
    align-items: center;
-   margin-left: 0px;
-   margin-top: -50px;
-   font-size: 30px;
+   margin: 0%;
+   margin-top: -20%;
+   font-size: 25px;
    
    
  }
